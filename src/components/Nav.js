@@ -2,13 +2,15 @@
 
 
 function Nav() {
-    const renderPage = () => {
-        // if statements
-    }
+    // const renderPage = () => {
+    //     // if statements
+    // }
 
     return (
+        <div>
 
-    )
+        </div>
+    );
 }
 
 export default Nav;

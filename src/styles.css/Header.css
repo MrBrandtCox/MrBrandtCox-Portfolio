@@ -1,0 +1,10 @@
+* {
+    
+}
+
+h1 {
+    display: flex;
+    font-size: 40px;
+    padding: 15px;
+}
+
