@@ -5,7 +5,7 @@
 /*Will need to remove once Links are created (ul, li, li:hover)*/
 ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding: 25px;
     background-color: white;
     position: fixed;
@@ -15,6 +15,7 @@ ul {
 }
 
 li {
+    margin: 0px 25px;
     font-family: Courier, Sans-serif, Serif;
     font-size: 20px;
     font-weight: bold;
