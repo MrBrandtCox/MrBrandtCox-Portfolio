@@ -1,0 +1,27 @@
+* {
+
+}
+
+/*Will need to remove once Links are created (ul, li, li:hover)*/
+ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    list-style-type: none; /*removes bullet points*/
+}
+
+li {
+    font-family: Courier, Sans-serif, Serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li:hover {
+    cursor: pointer;
+    color: rgb(0, 122, 187);
+    transform: scale(1.1);
+}

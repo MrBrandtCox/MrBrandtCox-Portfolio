@@ -4,7 +4,27 @@
 
 h1 {
     display: flex;
+    justify-content: center;
     font-size: 40px;
-    padding: 15px;
+    font-family: Copperplate, Sans-serif, Serif;
+    padding: 25px;
+    background-color: rgb(255, 255, 255);
 }
 
+h3 {
+    font-family: Courier, Sans-serif, Serif;
+    font-size: 20px;
+}
+
+h3:hover {
+    cursor: pointer;
+    color: rgb(0, 122, 187);
+    transform: scale(1.1);
+}
+
+.Nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
