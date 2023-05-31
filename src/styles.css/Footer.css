@@ -7,7 +7,7 @@ ul {
     display: flex;
     justify-content: center;
     padding: 25px;
-    background-color: white;
+    background-color: #3A10E5;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -19,10 +19,11 @@ li {
     font-family: Courier, Sans-serif, Serif;
     font-size: 20px;
     font-weight: bold;
+    color: white;
 }
 
 li:hover {
     cursor: pointer;
-    color: #3A10E5;
+    color: #000000;
     transform: scale(1.1);
 }
