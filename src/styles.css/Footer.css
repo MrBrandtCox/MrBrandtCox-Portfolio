@@ -23,6 +23,6 @@ li {
 
 li:hover {
     cursor: pointer;
-    color: rgb(0, 122, 187);
+    color: #3A10E5;
     transform: scale(1.1);
 }
