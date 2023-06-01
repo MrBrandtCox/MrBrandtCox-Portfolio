@@ -3,7 +3,7 @@
 }
 
 /*Will need to remove once Links are created (ul, li, li:hover)*/
-ul {
+.Footer ul {
     display: flex;
     justify-content: center;
     padding: 25px;
@@ -14,7 +14,7 @@ ul {
     list-style-type: none; /*removes bullet points*/
 }
 
-li {
+.Footer li {
     margin: 0px 25px;
     font-family: Courier, Sans-serif, Serif;
     font-size: 20px;
@@ -22,7 +22,7 @@ li {
     color: white;
 }
 
-li:hover {
+.Footer li:hover {
     cursor: pointer;
     color: #000000;
     transform: scale(1.1);
