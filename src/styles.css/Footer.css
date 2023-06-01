@@ -1,8 +1,3 @@
-* {
-
-}
-
-/*Will need to remove once Links are created (ul, li, li:hover)*/
 .Footer ul {
     display: flex;
     justify-content: center;

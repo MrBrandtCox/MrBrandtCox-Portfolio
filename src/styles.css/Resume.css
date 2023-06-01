@@ -1,13 +1,7 @@
-.contact-title {
+.resume-title {
     display: flex;
     justify-content: center;
     font-family: Courier, Sans-serif, Serif;
     padding: 0px;
     margin-top: 100px;
-}
-
-.contact-container {
-    display: flex;
-    justify-content: center;
-    padding: 50px;
 }
