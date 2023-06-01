@@ -1,0 +1,19 @@
+* {
+
+}
+
+body {
+
+}
+
+.contact-title {
+    display: flex;
+    justify-content: center;
+    font-family: Courier, Sans-serif, Serif;
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}

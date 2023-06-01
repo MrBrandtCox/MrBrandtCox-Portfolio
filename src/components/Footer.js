@@ -1,9 +1,8 @@
 import React from 'react';
+import '../styles.css/Footer.css';
 
 function Footer() {
-//     const {
 
-//     }
     return (
         <div className='Footer'>
             {/* <Link>to= '/' className='LinkedIn'</Link>
@@ -12,13 +11,13 @@ function Footer() {
             {/* Create Links for the contacts, Email and Phone will be added to About page*/}
             <ul>
                 <li>
-                    LinkedIn
+                    <a href = 'https://www.linkedin.com/in/brandt-cox-89bbbb254/'>LinkedIn</a>
                 </li>
                 <li>
-                    Github
+                    <a href = 'https://github.com/MrBrandtCox'>Github</a>
                 </li>
                 <li>
-                    Twitter
+                    <a href = 'https://twitter.com/MrBrandtCox'>Twitter</a>
                 </li>
             </ul>
         </div>

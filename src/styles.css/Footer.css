@@ -14,12 +14,13 @@
     list-style-type: none; /*removes bullet points*/
 }
 
-.Footer li {
+.Footer a {
     margin: 0px 25px;
     font-family: Courier, Sans-serif, Serif;
     font-size: 20px;
     font-weight: bold;
     color: white;
+    text-decoration: none;
 }
 
 .Footer li:hover {

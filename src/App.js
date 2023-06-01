@@ -1,25 +1,44 @@
 import './App.css';
-import './styles.css/Header.css';
-import './styles.css/Footer.css';
-import Header from './components/Header';
 import Nav from './components/Nav';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Footer from './components/Footer';
-import React from 'react';
+import React, { useState } from 'react';
 
 function App() {
+
+  const [currentTab,setCurrentTab] = useState('About')
+
+  const renderTab = () => {
+    if (currentTab === 'About') {
+      return <About />
+    }
+    if (currentTab === 'Portfolio') {
+      return <Portfolio />
+    }
+    if (currentTab === 'Resume') {
+      return <Resume />
+    }
+    return <Contact />
+  }
+
+  const handleTabChange = (tab) => setCurrentTab(tab)
+
   return (
-    <div className="portfolio-brandt">
-      <Header />
+    <div> 
+      <Nav currentTab={currentTab} handleTabChange={handleTabChange} />
+      {renderTab()}
+      <Footer />
+      {/* this div needs to be fixed so it doesn't render everything at once, rather when page is clicked. */}
+      {/* <Header />
       <Nav />
       <About />
       <Contact />
       <Portfolio />
       <Resume />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

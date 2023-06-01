@@ -1,4 +1,5 @@
 // import the pages here from path
+import '../styles.css/Nav.css';
 import React, { useState } from 'react';
 import About from '../pages/About';
 import Portfolio from '../pages/Portfolio';
@@ -13,6 +14,7 @@ function Nav() {
 
     return (
         <div className='Nav'>
+            <h1>Brandt Cox | Full-Stack Engineer</h1>
             {/* Make these Links? */}
             <ul>
                 <li onClick={() => setContent(About)}>About</li>
