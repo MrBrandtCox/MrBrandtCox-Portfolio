@@ -11,20 +11,22 @@ h1 {
     background-color: rgb(255, 255, 255);
 }
 
-h3 {
-    font-family: Courier, Sans-serif, Serif;
-    font-size: 20px;
-}
-
-h3:hover {
-    cursor: pointer;
-    color: #3A10E5;
-    transform: scale(1.1);
-}
-
 .Nav {
     display: flex;
     justify-content: space-around;
     background-color: rgb(255, 255, 255);
     padding: 20px;
 }
+
+.Nav li {
+    font-family: Courier, Sans-serif, Serif;
+    font-size: 20px;
+}
+
+.Nav li:hover {
+    cursor: pointer;
+    color: #3A10E5;
+    transform: scale(1.1);
+}
+
+
