@@ -55,20 +55,24 @@ function Portfolio () {
         <div>
             <h2 className='portfolio-title'>Portfolio</h2>
             <section className='portfolio-container'>
+                {myProjects.map()}
                 <div>
-
+                    {}
                 </div>
                 <div>
-
+                    {}
                 </div>
                 <div>
-
+                    {}
                 </div>
                 <div>
-
+                    {}
                 </div>
                 <div>
-
+                    {}
+                </div>
+                <div>
+                    {}
                 </div>
             </section>
         </div>

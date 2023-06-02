@@ -6,8 +6,11 @@ function Resume () {
         <div>
             <h2 className='resume-title'>Resume</h2>
             <section className='resume-container'>
-                <a href='https://docs.google.com/document/d/1HQ5ya-kRZHydW6c8OuMUEZqyfelAbbHfY1xs_tp65Zw/edit?usp=drive_link'>Click here to view my resume!</a>
+                <a href='https://docs.google.com/document/d/1HQ5ya-kRZHydW6c8OuMUEZqyfelAbbHfY1xs_tp65Zw/edit?hl=en'><button>Click here to view my resume!</button></a>
             </section>
+            <div>
+
+            </div>
         </div>
     );
 }

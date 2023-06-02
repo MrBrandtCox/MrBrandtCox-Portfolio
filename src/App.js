@@ -9,7 +9,7 @@ import React, { useState } from 'react';
 
 function App() {
 
-  const [currentTab,setCurrentTab] = useState('About')
+  const [currentTab,setCurrentTab] = useState('') // set to About page
 
   const renderTab = () => {
     if (currentTab === 'About') {
@@ -21,7 +21,9 @@ function App() {
     if (currentTab === 'Resume') {
       return <Resume />
     }
-    return <Contact />
+    if (currentTab === 'Contact') {
+      return <Contact />
+    }
   }
 
   const handleTabChange = (tab) => setCurrentTab(tab)
