@@ -7,7 +7,7 @@ import Resume from '../pages/Resume';
 import Contact from '../pages/Contact';
 
 function Nav() {
-    const [content, setContent] = useState();
+    const [content, setContent] = useState(About);
     // const renderPage = () => {
     //     // if statements
     // }
