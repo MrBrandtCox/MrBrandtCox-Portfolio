@@ -52,9 +52,9 @@ function Portfolio () {
 
 
     return (
-        <div>
+        <section className='portfolio-container'>
             <h2 className='portfolio-title'>Portfolio</h2>
-            <section className='portfolio-container'>
+            <div className='portfolio-cards'>
                 {/* {myProjects.map()} put content inside the .map curly braces. lines 59-76 */}
                 <div>
                     {}
@@ -74,8 +74,8 @@ function Portfolio () {
                 <div>
                     {}
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
     );
 }
 
