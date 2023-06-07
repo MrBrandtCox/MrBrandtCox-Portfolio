@@ -10,10 +10,23 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 0px 700px;
+    margin: 0% 30%;
+    padding: 0%;
 }
 
 .contact-container a {
     text-decoration: none;
 }
 
+.contact-container a:hover{
+    color: #3A10E5;
+}
+
+.contact-container .email, .linkedin, .phone{
+    margin-left: 26%;
+}
+
+.contact-container .phone:hover {
+    color: black;
+    transform: none;
+}

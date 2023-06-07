@@ -9,7 +9,7 @@ function Resume () {
                 <a href='https://docs.google.com/document/d/1HQ5ya-kRZHydW6c8OuMUEZqyfelAbbHfY1xs_tp65Zw/edit?hl=en'><button>Click here to view my resume!</button></a>
             </section>
             <div>
-
+                
             </div>
         </div>
     );
