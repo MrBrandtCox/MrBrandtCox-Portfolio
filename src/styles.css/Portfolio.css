@@ -1,7 +1,84 @@
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.grid-parent {
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+}
+
 .portfolio-title {
     display: flex;
     justify-content: center;
     font-family: Courier, Sans-serif, Serif;
     padding: 0px;
     margin-top: 70px;
+}
+
+.portfolioImg {
+    display: flex;
+    justify-content: center;
+}
+
+.projectName {
+    display: flex;
+    justify-content: center;
+    font-family: Courier, Sans-serif, Serif;
+    padding: 140px 0px 20px 0px;
+    margin-top: 30px;
+}
+
+.description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    font-family: Courier, Sans-serif, Serif;
+    padding: 20px;
+}
+
+.button-link {
+    display: flex;
+    padding: 10px;
+    font-family: Courier, Sans-serif, Serif;
+    border-radius: 5px;
+    color: white;
+    background-color: #3A10E5;
+    cursor: pointer;
+}
+
+.button-link:hover {
+    scale: 1.05;
+}
+
+.repository {
+    display: flex;
+    justify-content: center;
+    font-family: Courier, Sans-serif, Serif;
+}
+
+.button-repository {
+    display: flex;
+    padding: 10px;
+    font-family: Courier, Sans-serif, Serif;
+    border-radius: 5px;
+    color: white;
+    background-color: #3A10E5;
+    cursor: pointer;
+}
+
+.button-repository:hover {
+    scale: 1.05;
 }
