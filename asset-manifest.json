@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MrBrandtCox-Portfolio/static/css/main.e667cb52.css",
+    "main.js": "/MrBrandtCox-Portfolio/static/js/main.a80e35a6.js",
+    "static/media/brandtCode.jpg": "/MrBrandtCox-Portfolio/static/media/brandtCode.ca4fec5e4103737f67ad.jpg",
+    "static/media/editButton.png": "/MrBrandtCox-Portfolio/static/media/editButton.f4e5442236f36e9c3ca5.png",
+    "index.html": "/MrBrandtCox-Portfolio/index.html",
+    "main.e667cb52.css.map": "/MrBrandtCox-Portfolio/static/css/main.e667cb52.css.map",
+    "main.a80e35a6.js.map": "/MrBrandtCox-Portfolio/static/js/main.a80e35a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e667cb52.css",
+    "static/js/main.a80e35a6.js"
+  ]
+}
