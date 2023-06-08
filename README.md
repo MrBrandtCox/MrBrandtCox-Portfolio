@@ -43,6 +43,6 @@ Here's my updated portfolio using React! `:)`
 ## `Mock-up`
 ![Mock-up](src/assets/portfolio.png)
 ## `Deployed Link`
-[View My Portfolio]()
+[View My Portfolio](https://mrbrandtcox.github.io/MrBrandtCox-Portfolio/)
 ## `License`
 [MIT](https://github.com/MrBrandtCox/MrBrandtCox-Portfolio/blob/main/LICENSE)
