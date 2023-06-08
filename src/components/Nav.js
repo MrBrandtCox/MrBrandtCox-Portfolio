@@ -17,7 +17,7 @@ function Nav() {
             
             {/* Make these Links? */}
             <ul>
-            <h1>Brandt Cox | Full-Stack Engineer</h1>
+            <h1>Brandt Cox | Full-Stack Web Developer</h1>
                 <li onClick={() => setContent(About)}>About</li>
                 <li onClick={() => setContent(Portfolio)}>Portfolio</li>
                 <li onClick={() => setContent(Resume)}>Resume</li>
