@@ -41,7 +41,7 @@ Here's my updated portfolio using React! `:)`
 </br></br>
 
 ## `Mock-up`
-[Mock-up Video]()
+[Mock-up](src/assets/portfolio.png)
 ## `Deployed Link`
 [View My Portfolio]()
 ## `License`
