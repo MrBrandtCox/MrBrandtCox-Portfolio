@@ -1,7 +1,9 @@
+import REGEX from "../assets/REGEX.png"
+
 export default [
     {
         name: "All-American-REGEX-Tutorial",
-        image: "src/assets/REGEX.png",
+        image: REGEX,
         description: "This is a gist created to give a user a tutorial on the basics of REGEX, how to read one and to create one.",
         link: "https://gist.github.com/MrBrandtCox/46013867667218b62f3ac32bb76ec953#file-all-american-regex-tutorial-md",
         repository: "https://github.com/MrBrandtCox/All-American-REGEX-Tutorial",
