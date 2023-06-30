@@ -24,7 +24,11 @@ body {
 
 .portfolioImg {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    height: 60%;
+    width: 45%;
+    border-radius: 15px;
 }
 
 .projectName {
