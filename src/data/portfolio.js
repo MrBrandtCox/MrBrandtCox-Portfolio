@@ -1,4 +1,9 @@
 import REGEX from "../assets/REGEX.png"
+import technicalCodeQuiz from "../assets/technicalCodeQuiz.png"
+import myBusyDay from "../assets/myBusyDay.gif"
+import howsTheWeather from "../assets/howsTheWeather.png"
+import editButton from "../assets/editButton.png"
+import viewfinder from "../assets/viewfinder.png"
 
 export default [
     {
@@ -10,35 +15,35 @@ export default [
     },
     {
         name: "Technical-Code-Quiz",
-        image: "src/assets/Technical-Code-Quiz.png",
+        image: technicalCodeQuiz,
         description: "This is a simple multiple choice quiz about the basics of JavaScript, including a high score page for current and previous scores.",
         link: "https://mrbrandtcox.github.io/Technical-Code-Quiz/",
         repository: "https://github.com/MrBrandtCox/Technical-Code-Quiz",
     },
     {
         name: "My-Busy-Day",
-        image: "src/assets/myBusyDay.gif",
+        image: myBusyDay,
         description: "An application to keep the user on track with their daily schedule. Inputs are created and saved, past, present, and future time slots display a different color.",
         link: "https://mrbrandtcox.github.io/My-Busy-Day/",
         repository: "https://github.com/MrBrandtCox/My-Busy-Day",
     },
     {
         name: "Hows-the-weather-up-there",
-        image: "src/assets/howsTheWeather.png",
+        image: howsTheWeather,
         description: "This weather application takes a user's location input and returns the current weather data and icon, along with a 5 day forecast of the specified location. ",
         link: "https://mrbrandtcox.github.io/Hows-the-weather-up-there/",
         repository: "https://github.com/MrBrandtCox/Hows-the-weather-up-there",
     },
     {
         name: "Edit-Button",
-        image: "src/assets/editButton.png",
+        image: editButton,
         description: "Edit-Button is a downloadable app of an ordinary text editor! Just cooler.",
         link: "https://edit-button.herokuapp.com/",
         repository: "https://github.com/MrBrandtCox/Edit-Button",
     },
     {
         name: "view-finder",
-        image: "src/assets/viewfinder.png",
+        image: viewfinder,
         description: "This is a platform for photographers to display their work and available schedules for those looking to hire in their area.",
         link: "http://viewfinder.herokuapp.com/",
         repository: "https://github.com/MrBrandtCox/view-finder",
