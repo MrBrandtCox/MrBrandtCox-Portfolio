@@ -22,7 +22,7 @@ body {
     margin-top: 70px;
 }
 
-.portfolioImg {
+.portfolioImg { /* struggling to center the images*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
