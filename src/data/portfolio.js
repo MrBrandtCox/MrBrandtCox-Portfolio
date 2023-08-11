@@ -1,5 +1,5 @@
 import REGEX from "../assets/REGEX.png"
-import technicalCodeQuiz from "../assets/technicalCodeQuiz.png"
+import codeQuiz from "../assets/codeQuiz.png"
 import myBusyDay from "../assets/myBusyDay.gif"
 import howsTheWeather from "../assets/howsTheWeather.png"
 import editButton from "../assets/editButton.png"
@@ -15,7 +15,7 @@ export default [
     },
     {
         name: "Technical-Code-Quiz",
-        image: technicalCodeQuiz,
+        image: codeQuiz,
         description: "This is a simple multiple choice quiz about the basics of JavaScript, including a high score page for current and previous scores.",
         link: "https://mrbrandtcox.github.io/Technical-Code-Quiz/",
         repository: "https://github.com/MrBrandtCox/Technical-Code-Quiz",
