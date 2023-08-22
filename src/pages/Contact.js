@@ -1,5 +1,6 @@
 // imports
 import '../styles.css/Contact.css';
+import contactForm from '../components/contactForm';
 
 function Contact () {
     return (
@@ -11,6 +12,7 @@ function Contact () {
                     <li className = 'linkedin'><a target='_blank' rel='noreferrer noopener' href='https://www.linkedin.com/in/brandt-cox-89bbbb254/'>LinkedIn</a></li>
                     <li className = 'phone'><p>Cell: (801)949-6230</p></li>
                 </ul>
+                <contactForm/>  {/* contactForm not rendering on page */} 
             </section>
         </div>
     );

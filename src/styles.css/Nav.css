@@ -27,10 +27,10 @@ h1 {
     list-style-type: none;
 }
 
-.Nav li:hover {
+.NavList:hover {
     cursor: pointer;
     color: #3A10E5;
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 
 

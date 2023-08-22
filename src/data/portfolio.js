@@ -3,7 +3,6 @@ import codeQuiz from "../assets/codeQuiz.png"
 import myBusyDay from "../assets/myBusyDay.gif"
 import howsTheWeather from "../assets/howsTheWeather.png"
 import editButton from "../assets/editButton.png"
-import viewfinder from "../assets/viewfinder.png"
 
 export default [
     {
@@ -40,12 +39,5 @@ export default [
         description: "Edit-Button is a downloadable app of an ordinary text editor! Just cooler.",
         link: "https://edit-button.herokuapp.com/",
         repository: "https://github.com/MrBrandtCox/Edit-Button",
-    },
-    {
-        name: "view-finder",
-        image: viewfinder,
-        description: "This is a platform for photographers to display their work and available schedules for those looking to hire in their area.",
-        link: "http://viewfinder.herokuapp.com/",
-        repository: "https://github.com/MrBrandtCox/view-finder",
     },
 ]

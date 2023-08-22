@@ -2,28 +2,13 @@
     display: flex;
     justify-content: center;
     font-family: Courier, Sans-serif, Serif;
-    padding-bottom: 60px;
+    padding-bottom: 0px;
     margin-top: 70px;
 }
 
 .contact-container {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    margin: 0% 30%;
     padding: 0%;
-}
-
-.contact-container a {
-    text-decoration: none;
-    color: #3A10E5;
-}
-
-.contact-container .email, .linkedin, .phone{
-    margin-left: 26%;
-}
-
-.contact-container .phone:hover {
-    color: black;
-    transform: none;
+    align-items: center;
 }

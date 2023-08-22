@@ -1,3 +1,7 @@
+.Footer {
+    padding-top: 100px;
+} 
+
 .Footer ul {
     display: flex;
     justify-content: center;
@@ -21,5 +25,5 @@
 .Footer li:hover {
     cursor: pointer;
     color: #000000;
-    transform: scale(1.1);
+    transform: scale(0.9);
 }

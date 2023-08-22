@@ -4,7 +4,7 @@ import '../data/portfolio.js';
 
 function PortfolioItem ({name, image, description, link, repository}) {
     return (
-        <div>
+        <div className = 'project-box'>
             <img 
                 src={image} 
                 alt='project-img'

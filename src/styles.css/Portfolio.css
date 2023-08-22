@@ -11,7 +11,13 @@ body {
 
 .grid {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-box {
+    width: 30%;
+    padding: 10px;
 }
 
 .portfolio-title {
@@ -25,10 +31,10 @@ body {
 .portfolioImg { /* struggling to center the images*/
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    height: 60%;
-    width: 45%;
-    border-radius: 15px;
+    align-items: center;
+    height: 40%;
+    width: 95%;
+    border-radius: 10px;
 }
 
 .projectName {
@@ -64,7 +70,7 @@ body {
 }
 
 .button-link:hover {
-    scale: 1.03;
+    scale: 0.9;
 }
 
 .repository {
@@ -84,5 +90,5 @@ body {
 }
 
 .button-repository:hover {
-    scale: 1.03;
+    scale: 0.9;
 }
