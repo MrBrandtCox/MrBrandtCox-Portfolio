@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/MrBrandtCox-Portfolio/static/css/main.e667cb52.css",
-    "main.js": "/MrBrandtCox-Portfolio/static/js/main.a80e35a6.js",
-    "static/media/brandtCode.jpg": "/MrBrandtCox-Portfolio/static/media/brandtCode.ca4fec5e4103737f67ad.jpg",
+    "main.css": "/MrBrandtCox-Portfolio/static/css/main.137176f3.css",
+    "main.js": "/MrBrandtCox-Portfolio/static/js/main.fed5a9c9.js",
+    "static/media/brandtCode.jpeg": "/MrBrandtCox-Portfolio/static/media/brandtCode.5005ef2192d2073932e9.jpeg",
+    "static/media/myBusyDay.gif": "/MrBrandtCox-Portfolio/static/media/myBusyDay.5b3f62cdcc4cafa34102.gif",
+    "static/media/codeQuiz.png": "/MrBrandtCox-Portfolio/static/media/codeQuiz.f0614e8a9221bfa13435.png",
     "static/media/editButton.png": "/MrBrandtCox-Portfolio/static/media/editButton.f4e5442236f36e9c3ca5.png",
+    "static/media/howsTheWeather.png": "/MrBrandtCox-Portfolio/static/media/howsTheWeather.019eaddd432857175d73.png",
+    "static/media/REGEX.png": "/MrBrandtCox-Portfolio/static/media/REGEX.974ba0a589fe5ef2ce98.png",
     "index.html": "/MrBrandtCox-Portfolio/index.html",
-    "main.e667cb52.css.map": "/MrBrandtCox-Portfolio/static/css/main.e667cb52.css.map",
-    "main.a80e35a6.js.map": "/MrBrandtCox-Portfolio/static/js/main.a80e35a6.js.map"
+    "main.137176f3.css.map": "/MrBrandtCox-Portfolio/static/css/main.137176f3.css.map",
+    "main.fed5a9c9.js.map": "/MrBrandtCox-Portfolio/static/js/main.fed5a9c9.js.map"
   },
   "entrypoints": [
-    "static/css/main.e667cb52.css",
-    "static/js/main.a80e35a6.js"
+    "static/css/main.137176f3.css",
+    "static/js/main.fed5a9c9.js"
   ]
 }
