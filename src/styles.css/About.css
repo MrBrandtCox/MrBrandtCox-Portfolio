@@ -1,9 +1,7 @@
 .about-title {
     display: flex;
     flex-direction: column;
-    /* flex-direction: row; */
     align-items: center;
-    /* justify-content: center; */
     position: absolute;
     font-family: Courier, Sans-serif, Serif;
     font-size: 50px;
@@ -17,7 +15,6 @@
     display: flex;
     justify-content: flex-end;
     margin-left: 120px;
-    /* margin-left: 20%; */
     height: 350px;
     width: 350px;
     border-radius: 10px;
@@ -33,16 +30,12 @@
 
 .p-1 {
     display: flex;
-    /* padding: 0px 0px 50px 150px;
-    margin-right: 40%; */
     line-height: 2;
     font-size: 18px;
 }
 
 .p-2 {
     display: flex;
-    /* padding: 0px 0px 50px 150px;
-    margin-right: 40%; */
     line-height: 2;
     font-size: 18px;
 }
