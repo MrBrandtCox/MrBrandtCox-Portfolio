@@ -16,8 +16,6 @@ function Nav() {
 
     return (
         <div className='Nav'>
-            
-            {/* Make these Links? */}
             <ul>
             <h1>Brandt Cox | Full-Stack Developer</h1>
                 <li className = 'NavList' onClick={() => setContent(About)}>About</li>

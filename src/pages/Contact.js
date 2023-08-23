@@ -1,6 +1,6 @@
 // imports
 import '../styles.css/Contact.css';
-import contactForm from '../components/contactForm';
+// import contactForm from '../components/contactForm';
 
 function Contact () {
     return (
@@ -11,9 +11,11 @@ function Contact () {
                     <li className = 'email'><a target='_blank' rel='noreferrer noopener' href='https://mail.google.com/mail/u/0/#inbox?compose=new'>brandtleydev@gmail.com</a></li>
                     <li className = 'linkedin'><a target='_blank' rel='noreferrer noopener' href='https://www.linkedin.com/in/brandt-cox-89bbbb254/'>LinkedIn</a></li>
                     <li className = 'phone'><p>Cell: (801)949-6230</p></li>
-                </ul>
-                <contactForm/>  {/* contactForm not rendering on page */} 
+                </ul>   
             </section>
+            {/* <div>
+                <contactForm/> 
+            </div> */}
         </div>
     );
 }

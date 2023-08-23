@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles.css/Portfolio.css'; //keep or delete?
+import '../styles.css/Portfolio.css'; 
 import '../data/portfolio.js';
 
 function PortfolioItem ({name, image, description, link, repository}) {

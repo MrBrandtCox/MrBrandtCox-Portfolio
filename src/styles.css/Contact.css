@@ -12,3 +12,7 @@
     padding: 0%;
     align-items: center;
 }
+
+.contact-container li {
+    text-decoration: none;
+}
